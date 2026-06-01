@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[4,)"
+loaderVersion="[1,)"
 license="Apache-2.0 license http://www.apache.org/licenses/LICENSE-2.0"
 
 [[mods]]
@@ -20,14 +20,14 @@ config="bedrockbreaker.mixins.json"
 [[dependencies.bedrockbreaker]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.232,)"
+    versionRange="[21.0.1,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.bedrockbreaker]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.1]"
+    versionRange="[1.21, 1.21.2)"
     ordering="AFTER"
     side="BOTH"
 
