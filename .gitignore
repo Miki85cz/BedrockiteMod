@@ -14,6 +14,9 @@ out/
 
 .run/
 
+!LICENSE
+!README.md
+
 ### Eclipse ###
 .apt_generated
 .classpath
