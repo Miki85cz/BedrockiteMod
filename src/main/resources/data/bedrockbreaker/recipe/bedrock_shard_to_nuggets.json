@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bedrockbreaker:bedrock_shard"
+    }
+  ],
+  "result": {
+    "id": "bedrockbreaker:bedrock_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Apache-2.0 license http://www.apache.org/licenses/LICENSE-2.0"
+
+[[mods]]
+modId="bedrockbreaker"
+version="1.0.0"
+displayName="BedrockBreaker"
+displayURL=""
+credits=""
+authors="Miki85cz"
+
+description='''
+This mod adds a pickaxe which is able to mine bedrock. It is hard to obtain and in survival you can only get cracked bedrock (which can be mined with anything)
+'''
+
+[[mixins]]
+config="bedrockbreaker.mixins.json"
+
+[[dependencies.bedrockbreaker]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.232,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.bedrockbreaker]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

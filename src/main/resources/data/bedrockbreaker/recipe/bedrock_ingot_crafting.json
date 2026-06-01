@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bedrockbreaker:molten_bedrock"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "bedrockbreaker:molten_bedrock"
+    }
+  ],
+  "result": {
+    "id": "bedrockbreaker:bedrock_ingot",
+    "count": 1
+  }
+}

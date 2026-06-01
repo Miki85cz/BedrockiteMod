@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "bedrockbreaker:block/cracked_bedrock"
+      },
+      {
+        "model": "bedrockbreaker:block/cracked_bedrock_mirrored"
+      },
+      {
+        "model": "bedrockbreaker:block/cracked_bedrock",
+        "y": 180
+      },
+      {
+        "model": "bedrockbreaker:block/cracked_bedrock_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

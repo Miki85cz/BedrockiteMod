@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "bedrockbreaker:bedrock_ore",
+    "bedrockbreaker:bedrock_cracks",
+    "bedrockbreaker:nether_bedrock_ore",
+    "bedrockbreaker:cracked_bedrock"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "bedrockbreaker:nether_bedrock_ore_bottom_gen",
+  "step": "underground_ores"
+}

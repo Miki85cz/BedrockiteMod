@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 4,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "nether_carver_replaceables"
+        },
+        "state": {
+          "Name": "bedrockbreaker:nether_bedrock_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "base_stone_nether"
+        },
+        "state": {
+          "Name": "bedrockbreaker:nether_bedrock_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "minecraft:netherrack"
+        },
+        "state": {
+          "Name": "bedrockbreaker:nether_bedrock_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "minecraft:blackstone"
+        },
+        "state": {
+          "Name": "bedrockbreaker:nether_bedrock_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "minecraft:basalt"
+        },
+        "state": {
+          "Name": "bedrockbreaker:nether_bedrock_ore"
+        }
+      }
+    ]
+  }
+}

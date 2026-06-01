@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 1,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "bedrockbreaker:cracked_bedrock"
+  },
+  "result": {
+    "id": "bedrockbreaker:molten_bedrock"
+  }
+}

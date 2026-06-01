@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bedrockbreaker:block/bedrock_ore_top",
+    "up": "bedrockbreaker:block/bedrock_ore_top",
+    "north": "bedrockbreaker:block/bedrock_ore",
+    "east": "bedrockbreaker:block/bedrock_ore",
+    "south": "bedrockbreaker:block/bedrock_ore",
+    "west": "bedrockbreaker:block/bedrock_ore",
+    "particle": "bedrockbreaker:block/bedrock_ore_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bedrockbreaker:bedrock_shard"
+    },
+    {
+      "item": "bedrockbreaker:bedrock_shard"
+    },
+    {
+      "item": "bedrockbreaker:bedrock_shard"
+    },
+    {
+      "item": "bedrockbreaker:bedrock_shard"
+    }
+  ],
+  "result": {
+    "id": "bedrockbreaker:cracked_bedrock",
+    "count": 1
+  }
+}
