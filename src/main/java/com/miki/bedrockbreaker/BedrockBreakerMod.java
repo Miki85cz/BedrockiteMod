@@ -38,19 +38,13 @@ public class BedrockBreakerMod {
 	public static final String MODID = "bedrockbreaker";
 
 	public BedrockBreakerMod(IEventBus modEventBus) {
-		// Start of user code block mod constructor
-		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 		BedrockBreakerModBlocks.REGISTRY.register(modEventBus);
 		BedrockBreakerModItems.REGISTRY.register(modEventBus);
 		BedrockBreakerModTabs.REGISTRY.register(modEventBus);
-		// Start of user code block mod init
-		// End of user code block mod init
 	}
 
-	// Start of user code block mod methods
-	// End of user code block mod methods
 	private static boolean networkingRegistered = false;
 	private static final Map<CustomPacketPayload.Type<?>, NetworkMessage<?>> MESSAGES = new HashMap<>();
 

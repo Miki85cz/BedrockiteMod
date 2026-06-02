@@ -1,15 +1,15 @@
 {
   "type": "minecraft:smithing_transform",
   "template": {
-    "item": "bedrockbreaker:bedrock_ingot"
+    "item": "bedrockbreaker:bedrockite_ingot"
   },
   "base": {
     "item": "minecraft:netherite_pickaxe"
   },
   "addition": {
-    "item": "bedrockbreaker:bedrock_ingot"
+    "item": "bedrockbreaker:bedrockite_ingot"
   },
   "result": {
-    "id": "bedrockbreaker:bedrock_pickaxe"
+    "id": "bedrockbreaker:bedrockite_pickaxe"
   }
 }

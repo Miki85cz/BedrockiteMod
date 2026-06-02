@@ -15,7 +15,7 @@ import net.minecraft.core.BlockPos;
 
 public class NetherBedrockOreBlock extends Block {
 	public NetherBedrockOreBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.CRIMSON_HYPHAE).strength(50f, 1200f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK).instrument(NoteBlockInstrument.BASEDRUM));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.CRIMSON_HYPHAE).strength(100f, 1200f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK).instrument(NoteBlockInstrument.BASEDRUM));
 	}
 
 	@Override

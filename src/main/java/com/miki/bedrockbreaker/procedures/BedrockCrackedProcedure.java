@@ -13,14 +13,12 @@ public class BedrockCrackedProcedure {
 
     @SubscribeEvent
     public static void onBlockBreak(BlockEvent.BreakEvent event) {
-        // Automatically intercept standard survival mining
         if (event.getState().is(BedrockBreakerModBlocks.BEDROCK_CRACKS.get())) {
             event.setCanceled(true);
             executeStageSwap(event.getLevel(), event.getPos());
         }
     }
 
-    // Marked as public so BedrockPickaxeItem can manually invoke it if needed
     public static void executeStageSwap(LevelAccessor world, BlockPos pos) {
         world.setBlock(pos, BedrockBreakerModBlocks.CRACKED_BEDROCK.get().defaultBlockState(), 3);
     }

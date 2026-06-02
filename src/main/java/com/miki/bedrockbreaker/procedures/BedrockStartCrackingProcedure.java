@@ -31,9 +31,9 @@ public class BedrockStartCrackingProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (BedrockBreakerModItems.BEDROCK_PICKAXE.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() && Blocks.BEDROCK == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
+		if (BedrockBreakerModItems.BEDROCKITE_PICKAXE.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() && Blocks.BEDROCK == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			world.setBlock(BlockPos.containing(x, y, z), BedrockBreakerModBlocks.BEDROCK_CRACKS.get().defaultBlockState(), 3);
-		} else if (!(BedrockBreakerModItems.BEDROCK_PICKAXE.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem())
+		} else if (!(BedrockBreakerModItems.BEDROCKITE_PICKAXE.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem())
 				&& BedrockBreakerModBlocks.BEDROCK_CRACKS.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			world.setBlock(BlockPos.containing(x, y, z), Blocks.BEDROCK.defaultBlockState(), 3);
 		}

@@ -15,7 +15,7 @@ import net.minecraft.core.BlockPos;
 
 public class BedrockOreBlock extends Block {
 	public BedrockOreBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).strength(50f, 1200f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK).instrument(NoteBlockInstrument.BASEDRUM));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).strength(100f, 1200f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK).instrument(NoteBlockInstrument.BASEDRUM));
 	}
 
 	@Override

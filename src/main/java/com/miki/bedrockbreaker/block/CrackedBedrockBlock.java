@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.Block;
 
 public class CrackedBedrockBlock extends Block {
 	public CrackedBedrockBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).strength(80f, 1200f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK).instrument(NoteBlockInstrument.BASEDRUM));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).strength(150f, 1200f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK).instrument(NoteBlockInstrument.BASEDRUM));
 	}
 }

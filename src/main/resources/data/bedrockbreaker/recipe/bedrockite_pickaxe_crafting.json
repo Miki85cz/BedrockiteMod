@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "bedrockbreaker:bedrock_ingot"
+      "item": "bedrockbreaker:bedrockite_ingot"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "id": "bedrockbreaker:bedrock_pickaxe",
+    "id": "bedrockbreaker:bedrockite_pickaxe",
     "count": 1
   }
 }

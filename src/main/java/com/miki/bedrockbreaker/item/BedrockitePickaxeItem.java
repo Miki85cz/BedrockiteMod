@@ -15,7 +15,7 @@ import com.miki.bedrockbreaker.procedures.BedrockStartCrackingProcedure;
 import com.miki.bedrockbreaker.procedures.BedrockCrackedProcedure;
 import com.miki.bedrockbreaker.init.BedrockBreakerModItems;
 
-public class BedrockPickaxeItem extends PickaxeItem {
+public class BedrockitePickaxeItem extends PickaxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
@@ -44,11 +44,11 @@ public class BedrockPickaxeItem extends PickaxeItem {
 
 		@Override
 		public Ingredient getRepairIngredient() {
-			return Ingredient.of(new ItemStack(BedrockBreakerModItems.BEDROCK_INGOT.get()));
+			return Ingredient.of(new ItemStack(BedrockBreakerModItems.BEDROCKITE_INGOT.get()));
 		}
 	};
 
-	public BedrockPickaxeItem() {
+	public BedrockitePickaxeItem() {
 		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 6f, -2.8f)).rarity(Rarity.EPIC).fireResistant());
 	}
 
