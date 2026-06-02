@@ -37,10 +37,6 @@ public class BedrockBreakerModItems {
 		NETHER_BEDROCK_ORE = block(BedrockBreakerModBlocks.NETHER_BEDROCK_ORE, new Item.Properties().rarity(Rarity.RARE).fireResistant());
 	}
 
-	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
-		return block(block, new Item.Properties());
-	}
-
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
 	}
