@@ -4,14 +4,15 @@ license="Apache-2.0 license http://www.apache.org/licenses/LICENSE-2.0"
 
 [[mods]]
 modId="bedrockite"
-version="1.4.8-beta"
+version="1.5.0-beta"
 displayName="Bedrockite"
-displayURL=""
-credits=""
-authors="Miki85cz"
+displayURL="https://github.com/Miki85cz/BedrockiteMod"
+authors="§a§lMiki85cz"
 
 description='''
-This mod adds a new material Bedrockite that you can use to make the Bedrockite pickaxe which is able to mine bedrock. It is hard to obtain and in survival you can only get cracked bedrock (which can be mined with anything)
+§rThis mod adds a new material §bBedrockite §rthat you can use to make the §bBedrockite pickaxe §rwhich is able to mine bedrock. It is hard to obtain and in survival you can only get cracked bedrock (which can be mined with anything)
+
+§6If you find any issue please report it! https://github.com/Miki85cz/BedrockiteMod/issues
 '''
 
 logoFile="logo.png"
