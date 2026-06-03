@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all_mirrored",
+  "parent": "block/cube_mirrored_all",
   "textures": {
     "all": "bedrockite:block/cracked_bedrock",
     "particle": "bedrockite:block/cracked_bedrock"

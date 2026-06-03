@@ -38,8 +38,8 @@ public class BedrockiteMod {
 	public static final String MODID = "bedrockite";
 
 	public BedrockiteMod(IEventBus modEventBus) {
-		BedrockiteModBlocks.REGISTRY.register(modEventBus);
 		NeoForge.EVENT_BUS.register(this);
+		BedrockiteModBlocks.REGISTRY.register(modEventBus);
 		modEventBus.addListener(this::registerNetworking);
 		BedrockiteModItems.REGISTRY.register(modEventBus);
 		BedrockiteModTabs.REGISTRY.register(modEventBus);
