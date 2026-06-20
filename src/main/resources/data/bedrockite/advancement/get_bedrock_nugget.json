@@ -9,6 +9,7 @@
     "description": {
       "text": "Obtain a piece of Bedrock"
     },
+    "background": "bedrockite:textures/block/bedrock_ore.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
