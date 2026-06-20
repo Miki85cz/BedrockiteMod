@@ -22,5 +22,6 @@ public class BedrockiteModTabs {
 				tabData.accept(BedrockiteModItems.BEDROCKITE_INGOT.get());
 				tabData.accept(BedrockiteModBlocks.BEDROCK_ORE.get().asItem());
 				tabData.accept(BedrockiteModBlocks.NETHER_BEDROCK_ORE.get().asItem());
+				tabData.accept(net.minecraft.world.level.block.Blocks.BEDROCK.asItem());
 			}).withSearchBar().build());
 }

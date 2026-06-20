@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "bedrockite:bedrock_nugget"
+    },
+    "title": {
+      "text": "Fragments of Unbreakable"
+    },
+    "description": {
+      "text": "Obtain a piece of Bedrock"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockite:bedrock_nugget"
+          }
+        ]
+      }
+    },
+    "has_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockite:bedrock_shard"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nugget",
+      "has_shard"
+    ]
+  ]
+}

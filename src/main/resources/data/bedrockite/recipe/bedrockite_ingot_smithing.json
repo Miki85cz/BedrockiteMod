@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "bedrockite:molten_bedrock"
+  },
+  "base": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "addition": {
+    "item": "bedrockite:molten_bedrock"
+  },
+  "result": {
+    "id": "bedrockite:bedrockite_ingot"
+  }
+}

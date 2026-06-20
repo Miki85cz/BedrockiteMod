@@ -4,7 +4,7 @@ license="Apache-2.0 license http://www.apache.org/licenses/LICENSE-2.0"
 
 [[mods]]
 modId="bedrockite"
-version="1.5.0-beta"
+version="1.6.0-beta"
 displayName="Bedrockite"
 displayURL="https://github.com/Miki85cz/BedrockiteMod"
 authors="§a§lMiki85cz"
@@ -15,7 +15,7 @@ description='''
 §6If you find any issue please report it! https://github.com/Miki85cz/BedrockiteMod/issues
 '''
 
-logoFile="logo.png"
+logoFile="bedrockite.png"
 
 [[mixins]]
 config="bedrockite.mixins.json"
@@ -33,9 +33,3 @@ config="bedrockite.mixins.json"
     versionRange="[1.21, 1.21.2)"
     ordering="AFTER"
     side="BOTH"
-
-
-
-
-# Start of user code block dependencies configuration
-# End of user code block dependencies configuration

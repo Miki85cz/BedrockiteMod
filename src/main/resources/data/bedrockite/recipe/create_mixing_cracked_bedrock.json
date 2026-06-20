@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "bedrockite:bedrock_shard" },
+    { "item": "bedrockite:bedrock_shard" },
+    { "item": "bedrockite:bedrock_shard" },
+    { "item": "bedrockite:bedrock_shard" }
+  ],
+  "results": [
+    {
+      "id": "bedrockite:cracked_bedrock",
+      "count": 1
+    }
+  ]
+}

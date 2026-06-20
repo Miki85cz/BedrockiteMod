@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "bedrockite:bedrock_nugget" },
+    { "item": "bedrockite:bedrock_nugget" },
+    { "item": "bedrockite:bedrock_nugget" },
+    { "item": "bedrockite:bedrock_nugget" },
+    { "item": "bedrockite:bedrock_nugget" },
+    { "item": "bedrockite:bedrock_nugget" },
+    { "item": "bedrockite:bedrock_nugget" },
+    { "item": "bedrockite:bedrock_nugget" },
+    { "item": "bedrockite:bedrock_nugget" }
+  ],
+  "results": [
+    {
+      "id": "bedrockite:bedrock_shard",
+      "count": 1
+    }
+  ]
+}

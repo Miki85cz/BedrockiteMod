@@ -1,0 +1,30 @@
+{
+  "parent": "bedrockite:get_bedrockite_ingot",
+  "display": {
+    "icon": {
+      "id": "bedrockite:bedrockite_pickaxe"
+    },
+    "title": {
+      "text": "The Unbreakable Breaking"
+    },
+    "description": {
+      "text": "Acquire the Bedrockite Pickaxe"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_bedrockite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockite:bedrockite_pickaxe"
+          }
+        ]
+      }
+    }
+  }
+}

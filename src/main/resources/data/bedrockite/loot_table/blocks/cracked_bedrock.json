@@ -58,7 +58,7 @@
         {
           "type": "minecraft:item",
           "name": "bedrockite:bedrock_shard",
-          "weight": 1,
+          "weight": 778,
           "conditions": [
             {
               "condition": "minecraft:match_tool",
@@ -79,10 +79,42 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
                 "min": 1,
-                "max": 2
+                "max": 255
               }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bedrockite:bedrock_shard",
+          "weight": 222,
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
             },
             {
               "function": "minecraft:enchant_with_levels",

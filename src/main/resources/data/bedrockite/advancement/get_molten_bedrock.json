@@ -1,0 +1,30 @@
+{
+  "parent": "bedrockite:get_cracked_bedrock",
+  "display": {
+    "icon": {
+      "id": "bedrockite:molten_bedrock"
+    },
+    "title": {
+      "text": "Liquified Unbreakable"
+    },
+    "description": {
+      "text": "Blast Cracked Bedrock into a Molten Bedrock"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_molten_bedrock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockite:molten_bedrock"
+          }
+        ]
+      }
+    }
+  }
+}

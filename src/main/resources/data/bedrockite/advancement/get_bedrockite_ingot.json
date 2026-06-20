@@ -1,0 +1,30 @@
+{
+  "parent": "bedrockite:get_molten_bedrock",
+  "display": {
+    "icon": {
+      "id": "bedrockite:bedrockite_ingot"
+    },
+    "title": {
+      "text": "The Material"
+    },
+    "description": {
+      "text": "Forge a Bedrockite Ingot using a Smithing Table or Basin"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_bedrockite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockite:bedrockite_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

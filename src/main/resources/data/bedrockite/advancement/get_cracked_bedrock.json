@@ -1,0 +1,30 @@
+{
+  "parent": "bedrockite:get_bedrock_nugget",
+  "display": {
+    "icon": {
+      "id": "bedrockite:cracked_bedrock"
+    },
+    "title": {
+      "text": "The Broken Unbreakable"
+    },
+    "description": {
+      "text": "Acquire a Cracked Bedrock"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_cracked_bedrock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrockite:cracked_bedrock"
+          }
+        ]
+      }
+    }
+  }
+}

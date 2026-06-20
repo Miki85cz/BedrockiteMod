@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bedrockite:bedrockite_ingot",
+    "bedrockite:bedrock_shard",
+    "bedrockite:bedrock_nugget",
+    "bedrockite:molten_bedrock",
+    "bedrockite:bedrockite_pickaxe"
+  ]
+}
